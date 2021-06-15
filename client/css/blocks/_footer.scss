@@ -1,0 +1,215 @@
+.foot-text{
+    margin-top: 155px;
+    text-align: center;
+}
+.foot-text-h2{
+    font-family: $h-font-family;
+    font-size: $h-font-size;
+    line-height: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.025em;
+    color: $gray-green;
+}
+.foot-text-p{
+    font-family: $p-font-family;
+    font-size: $p-font-size + 3;
+    font-weight: 300;
+    text-transform: none;
+    letter-spacing: normal;
+    color: $gray-green;
+    margin-top: -15px;
+}
+.foot-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.foot-div-text{
+    width: 308px;
+    height: 47px;
+    background-color: $main-white;
+    border: $light-gray-border;
+    margin-left: 100px;
+    padding: 15px 15px;
+}
+.foot-div-text-email{
+    width: 388px;
+    height: 47px;
+    background-color: $main-white;
+    border: $light-gray-border;
+    padding: 15px 15px;
+}
+.foot-span{
+    font-family: $p-font-family;
+    font-size: $p-font-size - 2;
+    line-height: 1.2;
+    font-weight: 400;
+    color: $main-light-gray;
+    padding-left: 15px;
+}
+.foot-text-sub{
+    width: 218px;
+    height: 47px;
+    background-color: $main-yellow;
+    font-family: $h-font-family;
+    font-size: $h-font-size - 16;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $main-white;
+    margin-right: 100px;
+    padding: 15px 50px;
+    cursor: $pointer;
+    border: 2px solid #ffbb42;
+}
+.foot-text-sub:hover{
+    transform: $traffic-transform;
+}
+.foot-map{
+    margin-top: 51px;
+}
+.foot-thumb-text{
+    margin-top: -515px;
+    margin-left: 412px;
+}
+.thumb-span-text{
+    margin-top: -240px;
+    text-align: center;
+    margin-right: 465px;
+}
+.span-add{
+    font-family: $h-font-family;
+    font-size: $h-font-size - 12;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $main-white;
+}
+.span-strit{
+    font-family: $p-font-family;
+    font-size: $p-font-size - 2;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: none;
+    color: $main-light-gray;
+}
+.span-ifo{
+    font-family: $p-font-family;
+    font-size: $p-font-size - 2;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: none;
+    color: $main-yellow;
+}
+.foot-img{
+    width: 50px;
+    height: 48px;
+    margin-top: 80px;
+    margin-left: 528px;
+}
+.foot-box{
+    height: 1px;
+    background-color: #e3e7ec;
+    margin-top: 221px;
+}
+.foot-list-ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 65px;
+    padding: 0;
+
+}
+.foot-list-li{
+    margin-left: 38px;
+    font-family: $h-font-family;
+    font-size: $p-font-size - 2;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $gray-green;
+    cursor: $pointer;
+}
+.foot-list-li:hover{
+    color: $main-yellow;
+}
+.foot-phone{
+    margin-top: -40px;
+    margin-left: 500px;
+
+}
+.foot-phone-span{
+    font-family: $p-font-family;
+    font-size: $p-font-size + 7.5;
+    line-height: 24px;
+    font-weight: 400;
+    color: $gray-green;
+    margin-left: 15px;
+    margin-top: -5px;
+    position: absolute;
+}
+.foot-icon{
+    padding-top: 30px;
+    padding-left: 550px;
+}
+.fa-twitter:hover{
+    color: $main-yellow;
+}
+.fa-facebook-f:hover{
+    color: $main-yellow;
+}
+.fa-google-plus-g:hover{
+    color: $main-yellow;
+}
+.fa-linkedin-in:hover{
+    color: $main-yellow;
+}
+.fa-twitter{
+    font-family: "Font Awesome";
+    font-size: $p-font-size + 3.4;
+    line-height: 24px;
+    font-weight: 400;
+    color: $blue-gray-background;
+    padding-right: 10px;
+}
+.fa-facebook-f{
+    font-family: "Font Awesome";
+    font-size: $p-font-size + 3.4;
+    line-height: 24px;
+    font-weight: 400;
+    color: $blue-gray-background;
+    padding-right: 10px;
+}
+.fa-google-plus-g{
+    font-family: "Font Awesome";
+    font-size: $p-font-size + 3.4;
+    line-height: 24px;
+    font-weight: 400;
+    color: $blue-gray-background;
+    padding-right: 10px;
+
+}
+.fa-linkedin-in{
+    font-family:"Font Awesome";
+    font-size: $p-font-size + 3.4;
+    line-height: 24px;
+    font-weight: 400;
+    color: $blue-gray-background;
+    padding-right: 10px;
+}
+.foot-all-contents{
+    height: 45px;
+    background-color: $blue-gray-background;
+    margin-top: 54px;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.foot-all-contents-text{
+    font-family: $p-font-family;
+    font-size: $p-font-size - 2;
+    line-height: 24px;
+    font-weight: 400;
+    color: $main-white;
+}

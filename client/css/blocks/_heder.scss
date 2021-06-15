@@ -1,0 +1,54 @@
+.header {
+    height: 93px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 23px;
+    margin-right: 326px;
+}
+.link{
+    font-family: $h-font-family;
+    font-size: $p-font-size - 1.2;
+    line-height: 1.2;
+    font-weight: 400;
+    color: $main-grey;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding-top: 10px;
+    height: 34px;
+    text-align: center;
+    padding: 10px 15px;
+    cursor: $pointer;
+    text-decoration: none;
+}
+.a-link-a{
+    text-decoration: none;
+    color: $main-grey;
+}
+
+.link-a {
+    font-family: $h-font-family;
+    font-size: $p-font-size - 1.2;
+    line-height: 1.2;
+    font-weight: 400;
+    color: $main-grey;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding-top: 10px;
+    height: 34px;
+    text-align: center;
+    padding: 10px 15px;
+    cursor: $pointer;
+}
+.link:hover{
+    background-color:  $main-yellow;
+    color: $main-white;
+}
+.link-a:hover{
+    background-color:  $main-yellow;
+    color: $main-white;
+}
